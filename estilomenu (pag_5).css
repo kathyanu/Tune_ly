@@ -1,0 +1,141 @@
+*{box-sizing: border-box}
+
+body{
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: aliceblue;
+    background-color: #292929;
+}
+.nombre1{
+    font-size: 100px !important;
+}
+.pais{
+    font-size: 20px !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    padding: 10px;
+}
+.texto1{
+    font-size: 20px !important;
+    margin-top: -90px;
+}
+.logomarca{
+    width: 15% !important;
+}
+table, tr, td{
+    border-collapse: collapse !important;
+    padding: 50px;
+
+}
+table{
+    width: 50% !important;
+    margin:  auto;
+}
+.navbar {
+    width: 100% !important;
+    background-color: #070707;
+    overflow: auto;
+}
+.navbar a {
+    float: left !important;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 20% !important; 
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: #000 !important;
+}
+.navbar a.active {
+    background-color: #e40505 !important;
+}
+@media screen and (max-width: 500px) {
+.navbar a {
+    float: none !important;
+    display: block;
+    width: 100%;
+    text-align: left;
+    }
+}
+.barradebusqueda input{
+    border:none  !important;
+    flex: 1;
+}
+
+/* Pagina SUGERENCIA (5)*/
+.menu-vertical{
+    justify-content: left;
+    background: linear-gradient(to bottom, #ff0000, #ff6666) !important;
+    display: flex;
+    flex-direction: column;
+    width: 200px !important;
+    position: fixed ;
+    text-decoration: none !important;
+}
+.menu-vertical a{
+    padding: 20px !important;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+
+.tabla1 td {
+    padding: 10px;
+    border: 1px solid #17a6b9;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+
+
+.recibir {
+    border: 1px solid #ccc;
+}
+
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+
+input, textarea, button {
+    width: 100%;
+    box-sizing: border-box;
+} 
+.derecho{
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #292929;
+  color: #f1f1f1;
+  text-align: center;
+  padding: 12px 20px;
+  font-size: 14px;
+  z-index: 1000;
+}
+.sin_estilo{
+    text-decoration: none;
+    all:unset
+}
+.derecho{
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #292929;
+  color: #f1f1f1;
+  text-align: center;
+  padding: 12px 20px;
+  font-size: 14px;
+  z-index: 1000;
+}
+.sin_estilo{
+    text-decoration: none;
+    all:unset
+}

@@ -1,0 +1,38 @@
+.text-muted {
+    color: white !important;
+}
+body {
+    overflow-x: hidden !important; 
+    margin: 0; 
+    padding: 0;
+}
+.row {
+    padding-left: 1rem !important; 
+}
+
+.cancion{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+.cancioninfo{
+flex: 1rem;
+}
+.iconos{
+    display: flex;
+    gap: 1rem;
+}
+.iconos span{
+    cursor: pointer;
+}
+footer{
+    background-color: #070707;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+

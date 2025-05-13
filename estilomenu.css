@@ -1,0 +1,290 @@
+*{box-sizing: border-box}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    background-color: #292929;
+}
+.nombre1{
+    font-size: 100px;
+}
+.pais{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.texto1{
+    font-size: 20px;
+    margin-top: -90px;
+}
+.logomarca{
+    width: 15%;
+}
+table, tr, td{
+    border-collapse: collapse;
+    padding: 50px;
+}
+table{
+    width: 50%;
+    margin:  auto;
+}
+.navbar {
+    width: 100%;
+    background-color: #070707;
+    overflow: auto;
+}
+.navbar a {
+    float: left;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%; /* Four links of equal widths */
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: #f80707;
+}
+.navbar a.active {
+    background-color: #e40505;
+}
+@media screen and (max-width: 500px) {
+.navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+    }
+}
+
+footer{
+    background-color: #070707;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.busqueda {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    margin: 20px auto;
+    cursor: pointer;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-container {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+transform: translateY(-40px); /* Ajusta el valor para mover la barra más arriba */
+}
+
+.search-container input[type="search"] {
+  padding: 6px 35px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+}
+aside {
+  position: absolute;
+  top: 10px; /* Ajusta la distancia desde la parte superior */
+  right: 10px; /* Ajusta la distancia desde la derecha */
+  display: flex;
+  padding: 10px; 
+  margin-right: 10px;
+  gap: 10px; /* Espacio entre los enlaces */
+}
+aside a {
+  color: white; /* Color del texto */
+  text-decoration: none; /* Sin subrayado */
+  padding: 10px; /* Espacio interno */
+  border-radius: 5px; /* Bordes redondeados */
+}
+aside a:hover {
+  background-color: #f80707; /* Color de fondo al pasar el ratón */
+}
+
+.busqueda {
+  padding-left: 30px; /* Espacio para el icono */
+  background-image: url('../imagenes/lupa.png'); /* Reemplaza con la ruta correcta */
+  background-repeat: no-repeat;
+  background-position: 10px center; /* Posiciona el icono a la izquierda y centrado verticalmente */
+  background-size: 20px auto; /* Ajusta el tamaño del icono */
+  border: 1px solid #ccc; /* Ejemplo de borde */
+  padding: 8px 10px 8px 30px; /* Ajusta el padding para que el texto no se superponga al icono */
+  /* Otros estilos que tengas para el input */
+}
+.top{
+    width: 100%;
+    background-color: #070707;
+    overflow: auto;
+    justify-content: center;
+    text-align: center;
+}
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+        }
+
+.col {
+    flex: 1;
+    margin: 0 10px;
+}
+.card {
+    width: 100%;
+}
+
+img {
+    max-width: 240px;
+    height: auto;
+}
+h5 {
+    font-size: 15px;
+    margin: 10px 0;
+    text-align: center;
+}
+h5 a {
+    text-decoration: none;
+    color: black;
+}
+h5 a:hover {
+    cursor: pointer;
+    color: #f80707;
+}
+.card_text{
+    font-size: 15px;
+    color: white;
+}
+.iniciar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    font-size: large;
+    margin-top: 20px;
+}
+
+
+/*para videos/
+/* Tarjetas de video musical */
+.video-card {
+    width: 340px;
+    margin: 24px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background: lightgray;
+    transition: box-shadow 0.2s;
+    margin-bottom: 24px;
+}
+
+
+.video-card__video {
+    width: 100%;
+    height: 200px;
+    display: block;
+    background: #000;
+    border-radius: 10px 10px 0 0; /* Espacio entre tarjetas */
+}
+
+.video-card__info {
+    padding: 14px 16px;
+    text-align: center;
+}
+.video-card__title {
+    margin: 0 0 8px 0;
+    font-size: 1.2em;
+    color: #222;
+}
+.video-card__artist {
+    margin: 0;
+    color: #555;
+    font-weight: bold;
+}
+.video-card__desc {
+    margin: 6px 0 0 0;
+    color: #777;
+    font-size: 0.97em;
+}
+
+.video-card__link {
+    display: inline-block;
+    margin-top: 8px;
+    color: #e52d27;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+.video-card__link:hover {
+    color: #b31217;
+    text-decoration: underline;
+}
+
+/* Centrar las columnas de las cards */
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 60px; /* Espacio entre columnas */
+}
+.col-lg-4 {
+    flex: 0 0 340px; /* Ancho fijo igual al video */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conjunto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.registrar{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.correo {
+    padding: 5px;
+    margin-top: 5px;
+}
+.derecho{
+    background-color: #292929;
+  text-align: center;
+  font-size: 14px;
+position: static;
+margin-bottom: 0;
+border: none;
+padding: 10px;
+color: white;
+}
+
+.sin_estilo{
+    text-decoration: none;
+    all:unset
+}
+.footer2 {
+border: none;
+padding: 10px;
+color: white;
+position: fixed;
+bottom: 0;
+width: 100%;
+justify-content: center;
+text-align: center;
+}
